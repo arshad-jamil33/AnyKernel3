@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=ExampleKernel by osm0sis @ xda-developers
+kernel.string=BlackHole by KimChi @kim_chi_96
 do.devicecheck=1
 do.modules=0
 do.systemless=1
