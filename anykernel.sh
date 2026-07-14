@@ -48,8 +48,16 @@ fi
 . tools/ak3-core.sh;
 
 ## AnyKernel install
-split_boot;
 
-flash_boot;
-flash_dtbo;
+ui_print ">>> Calling split_boot"
+split_boot || abort "split_boot failed"
+
+ui_print ">>> Calling flash_boot"
+flash_boot || abort "flash_boot failed"
+
+ui_print ">>> Calling flash_dtbo"
+flash_dtbo || abort "flash_dtbo failed"
+
+ui_print ">>> Installation finished"
+
 ## end install
