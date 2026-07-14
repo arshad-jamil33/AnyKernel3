@@ -22,8 +22,8 @@ supported.vendorpatchlevels=
 
 
 # boot shell variables
-block=/dev/block/bootdevice/by-name/boot;
-is_slot_device=0;
+BLOCK=/dev/block/sde51
+IS_SLOT_DEVICE=0
 RAMDISK_COMPRESSION=auto;
 PATCH_VBMETA_FLAG=auto;
 
