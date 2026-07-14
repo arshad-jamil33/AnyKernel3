@@ -55,8 +55,8 @@ split_boot || abort "split_boot failed"
 ui_print ">>> Calling flash_boot"
 flash_boot || abort "flash_boot failed"
 
-ui_print ">>> Calling flash_dtbo"
-flash_dtbo || abort "flash_dtbo failed"
+#ui_print ">>> Calling flash_dtbo"
+#flash_dtbo || abort "flash_dtbo failed"
 
 ui_print ">>> Installation finished"
 
